@@ -6,8 +6,6 @@
     "wdth" 100;
 }
 
- /* shared style */
-
 .text-primary{
     color: #FD6E0A;
 
@@ -46,7 +44,7 @@
 
 
 .header_1 {
-    background-image: url(../portfolio-resources/images/developer.png), url(../portfolio-resources/images/header_bg.png);
+    background-image: url(./images/developer.png), url(./images/header_bg.png);
     background-repeat: no-repeat;
     background-position: top left, bottom right ;
 }
@@ -86,8 +84,6 @@ nav ul li a {
     font-size: 20px;
 }
 
-/* styling the banner */
-
 .banner {
     display: flex;
     justify-content: space-between;
@@ -123,15 +119,10 @@ nav ul li a {
     font-weight: 400;
 }
 
-/* main */
 main {
     max-width: 1140px;
     margin: 0 auto;
 }
-/* main */
-
-
-/* about section */ 
 
 .about {
     border-radius: 10px;
@@ -156,8 +147,6 @@ main {
     font-weight: 800;
 }
 
-/* skills part */
-
 .skills {
     margin-top: 130px;
     margin-left: auto;
@@ -172,8 +161,6 @@ main {
     text-align: center;
 }
 
-/* for skill container */
-
 .skill-container {
     display: flex;
     gap: 24px;
@@ -186,8 +173,6 @@ main {
     border-radius: 5px;
 }
 
-/* resume-container */
-
 .resume-container {
     display: flex;
     gap: 24px;
@@ -198,10 +183,6 @@ main {
     font-size: 30px;
     font-weight: bold;
 }
-
-.resume-column-title {}
-
-.experience {}
 
 .experience-title {
     color: #474747;
@@ -228,9 +209,6 @@ main {
     margin: 50px auto;
 }
 
-
-/* for form */
-
 footer{
     padding: 130px 230px;
     display: flex;
@@ -239,9 +217,11 @@ footer{
 form {
     border: none;
 }
+
 .footer-icon {
     margin-top: 25px;
 }
+
 .footer-column {
     width: 50%;
 }
